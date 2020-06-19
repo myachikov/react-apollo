@@ -1,8 +1,9 @@
 # Specifies the HTTP endpoint of your Prisma API.
-endpoint: ''
+#endpoint: ""
+endpoint: https://eu1.prisma.sh/makenna-smutz-9734dc/meeshkan-demo/dev
 
 # Defines your models, each model is mapped to the database as a table.
-datamodel: datamodel.prisma
+datamodel: ./server/prisma/datamodel.graphql
 
 # Specifies the language and directory for the generated Prisma client.
 generate:
