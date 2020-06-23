@@ -6,35 +6,35 @@ var typeDefs = require("./prisma-schema").typeDefs;
 var models = [
   {
     name: "Link",
-    embedded: false
+    embedded: false,
   },
   {
     name: "User",
-    embedded: false
+    embedded: false,
   },
   {
     name: "Vote",
-    embedded: false
-  }
+    embedded: false,
+  },
 ];
 exports.Prisma = prisma_lib_1.makePrismaClientClass({
   typeDefs,
   models,
-  endpoint: ``,
-  secret: `mysecret123`
+  endpoint: `http://localhost:4466`,
+  // secret: `mysecret123`,
 });
 exports.prisma = new exports.Prisma();
 var models = [
   {
     name: "Link",
-    embedded: false
+    embedded: false,
   },
   {
     name: "User",
-    embedded: false
+    embedded: false,
   },
   {
     name: "Vote",
-    embedded: false
-  }
+    embedded: false,
+  },
 ];
